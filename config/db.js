@@ -1,10 +1,10 @@
 const sql = require("mssql");
 
 const config = {
-    user: "sa",
+    user: "perfumestore",
     password: "@Password123",
-    server: "MSI\\SERVER1",
-    database: "PerfumeStore",
+    server: "den1.mssql8.gear.host",
+    database: "perfumestore",
     options: {
         trustServerCertificate: true
     }
